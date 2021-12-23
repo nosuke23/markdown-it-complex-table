@@ -1,0 +1,49 @@
+{
+  "name": "markdown-it-complex-table",
+  "version": "1.0.0",
+  "description": "Plugin for markdown-it markdown parser to create complex table",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosuke23/markdown-it-complex-table.git"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "table",
+    "YAML"
+  ],
+  "author": "nosuke23 <nosuke23su@gmail.com> (https://github.com/nosuke23)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosuke23/markdown-it-complex-table/issues"
+  },
+  "homepage": "https://github.com/nosuke23/markdown-it-complex-table#readme",
+  "devDependencies": {
+    "@types/highlight.js": "^10.1.0",
+    "@types/jest": "^27.0.3",
+    "@types/js-beautify": "^1.13.3",
+    "@types/markdown-it": "^12.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "highlight.js": "^11.3.1",
+    "jest": "^27.4.5",
+    "js-beautify": "^1.14.0",
+    "markdown-it": "^12.3.0",
+    "outdent": "^0.8.0",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "yaml2html-table": "^1.0.2"
+  }
+}
